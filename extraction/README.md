@@ -1,0 +1,3 @@
+read_gnss_n9m.py: Saves all the parsed messages from the GNSS receiver in a Python pickle file. The object stored is a tuple containing the parsed message by pyubx package and the timestamp of when the message was read.
+
+read_gnss_extract_lat_lon.py: Saves the same as the read_gnss_n9m.py script but also saves a file containing the position solution for latitude, longitude and height to a separate pickle file. The script also contains code to extract x and y coordinates from the IMU solution of an Intel RealSense Tracking Camera.

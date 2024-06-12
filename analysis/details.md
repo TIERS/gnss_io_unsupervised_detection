@@ -1,0 +1,1 @@
+The files ending in *_features.pickle are the output from the processing_gnss_features notebook. They contain only the features of interest extracted from the messages in the raw files.

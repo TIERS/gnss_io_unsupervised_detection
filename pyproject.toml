@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gnss-transition-detection"
+version = "0.1.0"
+description = "Extraction, processing and analysis of GNSS receiver messages to evaluate the feasibility of a unsupervised outdoor to indoor detection system"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "gnss_transition_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+matplotlib = "^3.9.0"
+pyubx2 = "^1.2.43"
+pyserial = "^3.5"
+ipykernel = "^6.29.4"
+scipy = "^1.13.1"
+giotto-tda = "^0.6.2"
+folium = "^0.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
