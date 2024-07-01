@@ -26,3 +26,6 @@ Order in which the scripts were used during research:
 
 5. The notebook *exploring_trajectories* uses the coordinates from the camera and the GNSS receiver to draw the trajectories. The input data is the *gnss_test_raw_data* file and expects the messages to contain the solution message, and the file to also have the camera IMU coordinates as part of the tuple for each message (N rows, 4 columns).
     1. The camera x, y coordinates are plotted in a scatter plot. The trajectory from the GNSS solution is drawn over a specific map.
+
+
+From 1 to 3 (and 4) things need to be in order. But 3 and 4 need the same file. Then 5 can be run separately once the *gnss_test_raw_data* is obtained.
